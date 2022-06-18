@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.card{
+    width: 300px;
+}
+
+.main-img{
+    border-radius: 15px 15px 0 0 ;
+}
+
+h1{
+    font-size: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin: 10px 0;
+}
+
+p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    color:hsl(224, 23%, 55%);
+    margin-top: 15px;
+}
+
+.small{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+a{
+    margin-top: 15px;
+    font-size: 10px;
+    color: hsl(238, 67%, 62%);
+    font-weight: 900;
+}
+
+a:hover{
+    text-decoration: none;
+    color: hsl(244, 39%, 62%);
+}
+
+.subscription span{
+    color: hsl(224, 23%, 55%);
+}
+
+.subscription{
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+}
+
+.link{
+    float: right;
+}
+
+.payment{
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 10px 16px -3px hsl(245, 59%, 71%);
+}
+
+.payment:active{
+    transform: translate(2px, 2px);
+}
+
+.payment:hover{
+    background-color: hsl(238, 67%, 62%);
+}
+
+.cancel{
+    border: none;
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
