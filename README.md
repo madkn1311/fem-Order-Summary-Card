@@ -14,7 +14,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: [Github Pages](https://madkn1311.github.io/fem-Order-Summary/)
+- Live Site URL: [Github Pages](https://madkn1311.github.io/fem-Order-Summary-Card/)
 
 ## My process
 
